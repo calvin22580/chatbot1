@@ -10,7 +10,7 @@ async function getReply() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer <NoamZjwQX5gWz4yfElEOZfnt6B6I2Nfk>',
+            'Authorization': 'Bearer NoamZjwQX5gWz4yfElEOZfnt6B6I2Nfk',
         },
         body: JSON.stringify({
             'question': input,
